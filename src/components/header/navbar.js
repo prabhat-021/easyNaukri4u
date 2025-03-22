@@ -11,7 +11,7 @@ const navItems = [
   { label: "Latest Jobs", href: "/about" },
   ,
   { label: "Results", href: "/" },
-  { label: "CBT", href: "/Cvt" },
+  { label: "CBT", href: "/Cbt" },
 
 ];
 
@@ -65,7 +65,7 @@ export default function MainNav() {
             <Link href="/" className="flex items-center group">
               <Image
                 src="/cir.png"
-                alt="Bridge Group Logo"
+                alt="easyNaukri Logo"
                 width={28}
                 height={28}
                 className="sm:w-[32px] sm:h-[32px] md:w-[36px] md:h-[36px] lg:w-[40px] lg:h-[40px] mr-1.5 sm:mr-2 md:mr-3"
